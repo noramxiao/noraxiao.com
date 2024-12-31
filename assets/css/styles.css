@@ -9,7 +9,7 @@
 body {
     background-color: #f7f7f1;
     color: #333;
-    padding: 1.3rem; 
+    padding: 3.5rem; 
     display: flex;
     justify-content: left;
 }
@@ -33,11 +33,11 @@ a {
 }
 
 .profile-photo {
-    width: 104px; 
-    height: 104px; 
+    width: 95px; 
+    height: 95px; 
     border-radius: 50%;
     overflow: hidden;
-    margin-right: 1.3rem; 
+    margin-right: 3.05rem; 
 }
 
 .profile-photo img {
@@ -47,14 +47,10 @@ a {
 }
 
 .name {
-    font-size: 2.275rem; 
+    font-size: 2.2rem; 
     font-weight: 550;
     display: flex;
     align-items: center;
-}
-
-.name span {
-    margin-left: 0.65rem; 
 }
 
 /* Sections */
@@ -66,7 +62,7 @@ section {
 
 section h2 {
     font-size: 1.35rem; 
-    margin-right: 1.3rem; 
+    margin-right: 0.6rem; 
     font-weight: 500;
     min-width: 130px; 
 }
