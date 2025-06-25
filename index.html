@@ -31,7 +31,6 @@
       "Princeton",
       "UNT"
     ],
-    "email": "mailto:nxiao@caltech.edu",
     "sameAs": [
       "https://www.linkedin.com/in/noramxiao/"
     ]
@@ -75,12 +74,20 @@
     <section>
         <h2>Contact</h2>
         <ul class="list-items">
-            <li><a href="mailto:nxiao@caltech.edu">Email</a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/noramxiao/">LinkedIn</a>
-            </li>
+            <li><a href="#" id="email-link">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/noramxiao/">LinkedIn</a></li>
         </ul>
-        </section>
+    </section>
+
+    <script>
+      (function(){
+        const encoded = "bnhpYW9AY2FsdGVjaC5lZHU=";
+        const email = atob(encoded);
+        const link = document.getElementById("email-link");
+        link.href = "mailto:" + email;
+        link.textContent = email;
+      })();
+    </script>
   </div>
 </body>
 </html>
