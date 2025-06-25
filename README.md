@@ -1,2 +1,2 @@
-# noramxiao.github.io
+# noraxiao.com
 My personal website!
