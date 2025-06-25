@@ -85,6 +85,7 @@
         const email = atob(encoded);
         const link = document.getElementById("email-link");
         link.href = "mailto:" + email;
+        link.textContent = "Email";  
       })();
     </script>
   </div>
